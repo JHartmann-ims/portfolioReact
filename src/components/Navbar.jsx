@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {MoonIcon, ChevronDownIcon, TranslateIcon, MailIcon} from '@heroicons/react/solid'
+import {MailIcon} from '@heroicons/react/solid'
 
 const Navbar = () => {
   return (

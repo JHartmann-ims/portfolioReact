@@ -39,7 +39,7 @@ const Me = () => {
                 clicking the button below.
               </p>
               <div className="text-center pt-3">
-                <a role="button" className="btn btn-wide" href="https://portfolio.bbbaden.ch/view/view.php?t=hJRKLrHia4WAlUx1MCPs" target="_blank">My Projects</a>
+                <a role="button" className="btn btn-wide" href="https://portfolio.bbbaden.ch/view/view.php?t=hJRKLrHia4WAlUx1MCPs" target="_blank" rel="noreferrer">My Projects</a>
               </div>
             </div>
             <div className="w-[100%] m-0 mx-auto pt-10">
@@ -162,15 +162,15 @@ const Me = () => {
               <h2 className="text-3xl font-bold pb-2">On the web</h2>
               <div class="mockup-window border bg-base-300">
                 <div class="grid justify-center px-4 py-16 bg-base-200 gap-2">
-                  <a href="https://github.com/JHartmann-ims" role="button" className="btn btn-outline btn-wide gap-2" target="_blank">
+                  <a href="https://github.com/JHartmann-ims" role="button" className="btn btn-outline btn-wide gap-2" target="_blank" rel="noreferrer">
                     <img src={github} alt="" className="w-7 h-7"/>
                     JHartmann-ims
                   </a>
-                  <a href="https://www.linkedin.com/in/julian-hartmann-a17999239/" role="button" className="btn btn-outline btn-wide gap-2" target="_blank">
+                  <a href="https://www.linkedin.com/in/julian-hartmann-a17999239/" role="button" className="btn btn-outline btn-wide gap-2" target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="" className="w-6 h-6"/>
                     Julian Hartmann
                   </a>
-                  <a href="https://www.youtube.com/channel/UCCQpiU3-tQ1gbrj7JdVyqKQ/videos" role="button" className="btn btn-outline btn-wide gap-2" target="_blank">
+                  <a href="https://www.youtube.com/channel/UCCQpiU3-tQ1gbrj7JdVyqKQ/videos" role="button" className="btn btn-outline btn-wide gap-2" target="_blank" rel="noreferrer">
                     <img src={youtube} alt="" className="w-7 h-7"/>
                     quacksterr
                   </a>
