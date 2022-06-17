@@ -104,7 +104,7 @@ const Me = () => {
                   <p>CSS</p>
                   <progress
                     class="progress progress-primary sm:w-56 w-32"
-                    value="90"
+                    value="75"
                     max="100"
                   ></progress>
                 </div>
@@ -128,7 +128,7 @@ const Me = () => {
                   <p>React</p>
                   <progress
                     class="progress progress-primary sm:w-56 w-32"
-                    value="65"
+                    value="45"
                     max="100"
                   ></progress>
                 </div>
@@ -136,7 +136,7 @@ const Me = () => {
                   <p>HTML</p>
                   <progress
                     class="progress progress-primary sm:w-56 w-32"
-                    value="95"
+                    value="80"
                     max="100"
                   ></progress>
                 </div>

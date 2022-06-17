@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="Portfolio"
+      content="Portfolio from Julian Hartmann"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -41,3 +41,7 @@
     -->
   </body>
 </html>
+
+<script>
+  var oldTitle,timerId;function flashTitle(e){var t=!1;oldTitle=document.title,timerId=setInterval((function(){document.title=t?oldTitle:e,t=!t}),2e3)}flashTitle("Portfolio")
+</script>
