@@ -33,9 +33,9 @@ const Me = () => {
                 years, which I look forward to expanding in the years to come.
                 When I'm not at work, I usually like to hang out with my friends, especially with my girlfriend
                 online and offline. Though it often happens that my friends and
-                I are suddenly discussing about our projects in the workings,
+                I are suddenly discussing about our projects we are working on,
                 when we're online. Every project I did in school has been
-                documented by me and you can see some of my done projects by
+                documented by me and you can see some of my finished projects by
                 clicking the button below.
               </p>
               <div className="text-center pt-3">
