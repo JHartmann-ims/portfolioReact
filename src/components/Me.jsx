@@ -141,13 +141,13 @@ const Me = () => {
                   ></progress>
                 </div>
                 <div className="p-4 rounded-lg shadow-ll bg-base-300">
-                  <p>PHP</p>
+                  <p>Javascript</p>
                   <progress
                     class="progress progress-primary sm:w-56 w-32"
                     value="40"
                     max="100"
                   ></progress>
-                </div>
+                </div>        
               </div>
             </div>
             <div className="w-[100%] m-0 mx-auto pt-10">
