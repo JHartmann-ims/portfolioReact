@@ -144,7 +144,7 @@ const Me = () => {
                   <p>Javascript</p>
                   <progress
                     class="progress progress-primary sm:w-56 w-32"
-                    value="40"
+                    value="75"
                     max="100"
                   ></progress>
                 </div>        
