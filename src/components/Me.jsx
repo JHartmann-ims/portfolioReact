@@ -64,7 +64,7 @@ const Me = () => {
 
                     <tr>
                       <th>2017-2020</th>
-                      <td>Upper Secondary (Bezirksschule)</td>
+                      <td>Bezirksschule</td>
                       <td>Switzerland</td>
                       <td>Spreitenbach</td>
                     </tr>
