@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../assets/portrait_suit.jpeg";
+import portrait from "../assets/portraitJHA.jpeg";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import youtube from "../assets/youtube.png";
@@ -14,14 +14,15 @@ const Me = () => {
           <div className="w-[90%] h-full">
             <img
               src={portrait}
-              alt="/"
+              alt="portrait of Julian"
               className="rounded-full w-48 h-48 sm:w-64 sm:h-64 block ml-auto mr-auto border-solid border-4 border-neutral drop-shadow-md"
             />
-            <div className="sm:w-[80%] xs:w-[100%] h-16 rounded-lg bg-neutral mt-5 m-0 mx-auto text-center">
-              <h3 className="3xl:text-2xl xs:text-sm text-xs 3xl:pt-4 pt-5 3xl:font-normal font-semibold">
-                Hello, I'm a student who does application development !
-              </h3>
-            </div>
+<div className="w-full sm:w-[90%] md:w-[80%] h-auto rounded-lg bg-neutral mt-5 mx-auto text-center p-4">
+  <h3 className="text-base sm:text-lg md:text-xl font-semibold">
+    Hello, I'm a guy who does application development!
+  </h3>
+</div>
+
             <h1 className="pt-5 text-4xl font-bold">Julian Hartmann</h1>
             <p>Student of computer science, based in Switzerland</p>
             <div className="w-[100%] m-0 mx-auto pt-10">
