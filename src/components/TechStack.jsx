@@ -31,7 +31,7 @@ const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
     {[...tools, ...tools, ...tools].map((tool, index) => (
       <div
         key={`${tool.name}-${index}`}
-        className="group relative w-32 h-18 p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center transition-all duration-300 hover:bg-base-200/50 flex-shrink-0 border border-white/10"
+        className="group relative sm:w-24 w-14 h-14  p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center flex-shrink-0 border border-white/10"
       >
         <img
           src={tool.logo}
