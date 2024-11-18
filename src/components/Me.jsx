@@ -59,7 +59,7 @@ const Me = () => {
                       </h3>
                       <time className="text-sm text-gray-400">Aug 2024 - Present</time>
                       <p className="mt-2">
-                      Continued developing and maintaining web applications with TYPO3, Neos, PHP, and MySQL. Expanded responsibilities to include server administration and maintenance.                      </p>
+                        Continued developing and maintaining web applications with TYPO3, Neos, PHP, and MySQL. Expanded responsibilities to include server administration and maintenance.                      </p>
                     </div>
 
                     <div className="mb-10 ml-6">
@@ -70,7 +70,7 @@ const Me = () => {
                       </h3>
                       <time className="text-sm text-gray-400">Aug 2023 - Aug 2024</time>
                       <p className="mt-2">
-                      Developed and maintained web applications using TYPO3, Neos, PHP, and MySQL. Created custom extensions for TYPO3 and Neos, implemented browser-independent layouts with HTML/CSS, and worked on client-side programming with JavaScript and popular libraries.                      
+                        Developed and maintained web applications using TYPO3, Neos, PHP, and MySQL. Created custom extensions for TYPO3 and Neos, implemented browser-independent layouts with HTML/CSS, and worked on client-side programming with JavaScript and popular libraries.
                       </p>
                     </div>
 
@@ -82,7 +82,13 @@ const Me = () => {
                       </h3>
                       <time className="text-sm text-gray-400">Aug 2020 - Aug 2023</time>
                       <p className="mt-2">
-                      Completed a four-year program focused on application development, including an internship in the final year. Gained knowledge of various technologies, including React, Java, C#, PHP, MySQL, and JavaScript.                      </p>
+                        Completed a four-year program focused on application development, including an internship in the final year. Gained knowledge of various technologies, including React, Java, C#, PHP, MySQL, and JavaScript.
+                      </p>
+                      <div className="text-center pt-3">
+                        <a role="button" className="btn w-full" href="https://portfolio.bbbaden.ch/view/view.php?t=hJRKLrHia4WAlUx1MCPs" target="_blank" rel="noreferrer">
+                          School Coding Projects
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -102,7 +108,7 @@ const Me = () => {
                   <a
                     href="https://github.com/JHartmann-ims"
                     role="button"
-                    className="btn btn-outline btn-wide gap-2"
+                    className="btn btn-wide gap-2 text-left"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -112,7 +118,7 @@ const Me = () => {
                   <a
                     href="https://www.linkedin.com/in/julian-hartmann-a17999239/"
                     role="button"
-                    className="btn btn-outline btn-wide gap-2"
+                    className="btn btn-wide gap-2"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -122,7 +128,7 @@ const Me = () => {
                   <a
                     href="https://www.youtube.com/channel/UCCQpiU3-tQ1gbrj7JdVyqKQ/videos"
                     role="button"
-                    className="btn btn-outline btn-wide gap-2"
+                    className="btn btn-wide gap-2"
                     target="_blank"
                     rel="noreferrer"
                   >

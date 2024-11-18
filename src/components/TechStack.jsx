@@ -16,8 +16,9 @@ const tools = [
 const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
   <motion.div
     className="flex gap-6 py-4"
+    initial={{ x: offset }} 
     animate={{
-      x: reverse ? ['0%', '-100%'] : ['0%', '-100%'],
+      x: reverse ? ['0%', '-100%'] : ['-100%', '0%'], 
     }}
     transition={{
       x: {
@@ -26,12 +27,11 @@ const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
         repeat: Infinity,
       },
     }}
-    style={{ x: offset }}
   >
-    {[...tools, ...tools, ...tools].map((tool, index) => (
+    {[...tools, ...tools, ...tools, ...tools].map((tool, index) => (
       <div
         key={`${tool.name}-${index}`}
-        className="group relative sm:w-24 w-14 h-14  p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center flex-shrink-0 border border-white/10"
+        className="group relative sm:w-24 w-14 h-14 p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center flex-shrink-0 border border-white/10"
       >
         <img
           src={tool.logo}
@@ -42,6 +42,7 @@ const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
     ))}
   </motion.div>
 );
+
 
 export default function TechStack() {
   return (
@@ -57,7 +58,7 @@ export default function TechStack() {
 
         {/* Second row - faster */}
         <div className="relative">
-          <ScrollingRow speed={20} reverse={true} offset={7} />
+          <ScrollingRow speed={15} reverse={true} offset={0} />
           <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-base-100 via-base-100 to-transparent z-10" />
           <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-base-100 via-base-100 to-transparent z-10" />
         </div>
