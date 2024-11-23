@@ -36,8 +36,13 @@ const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
         <img
           src={tool.logo}
           alt={tool.name}
-          className="w-10 h-10 object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+          className="w-10 h-10"
         />
+        <div className="absolute inset-0 bg-black/80 items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg sm:flex hidden">
+          <div className="text-white text-xs text-center px-2">
+            <div className="font-semibold mb-1">{tool.name}</div>
+          </div>
+        </div>
       </div>
     ))}
   </motion.div>

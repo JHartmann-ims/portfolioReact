@@ -39,7 +39,7 @@ const Me = () => {
               <br />
               <p>
                 My journey into development started with a keen interest in
-                understanding how things work behind the scenes-wether it was
+                understanding how things work behind the scenes - wether it was
                 the functionality of websites, applications, or video games.
                 This curiosity led me to create my first video game using Unity
                 and C#. This experience was needed to get me to realize that
