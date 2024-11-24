@@ -157,9 +157,9 @@ function Terminal() {
             <span className="text-gray-200 font-medium">Interactive Terminal</span>
           </div>
           <div className="flex space-x-2">
-            <div className="w-3 h-3 rounded-full bg-red-500" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500" />
-            <div className="w-3 h-3 rounded-full bg-green-500" />
+            <div className="w-3 h-3 rounded-full bg-base-300" />
+            <div className="w-3 h-3 rounded-full bg-base-300" />
+            <div className="w-3 h-3 rounded-full bg-base-300" />
           </div>
         </div>
 
@@ -188,7 +188,6 @@ function Terminal() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               className="flex-1 bg-transparent outline-none text-white"
-              autoFocus
             />
           </form>
         </div>
