@@ -9,8 +9,19 @@ const tools = [
   { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-  { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" },
+  { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+  { name: "PHP", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" },
+  { name: "Neos CMS", logo: "https://logosandtypes.com/wp-content/uploads/2023/04/neos-cms.svg" },
+  { name: "TYPO3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typo3/typo3-original.svg" },
+  { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
+  { name: "MariaDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg" },
+  { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" },
+  { name: "HTML5", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" },
+  { name: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" },
+  { name: "C#", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
+  { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" },
+
+
 ];
 
 const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
@@ -31,7 +42,7 @@ const ScrollingRow = ({ speed = 20, reverse = false, offset = 0 }) => (
     {[...tools, ...tools, ...tools, ...tools].map((tool, index) => (
       <div
         key={`${tool.name}-${index}`}
-        className="group relative sm:w-24 w-14 h-14 p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center flex-shrink-0 border border-white/10"
+        className="group relative sm:w-24 w-14 h-14 p-4 bg-base-200 backdrop-blur-sm shadow-lg rounded-lg flex justify-center items-center flex-shrink-0 border border-white/10 select-none"
       >
         <img
           src={tool.logo}
