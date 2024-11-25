@@ -8,7 +8,7 @@ import Terminal from "./Terminal";
 
 const Me = () => {
   return (
-    <div className="flex flex-grow">
+    <div className="flex flex-grow mb-20">
       <div className="flex w-full">
         <div className="lg:w-[850px] w-[90%] min-h-screen flex m-0 mx-auto place-content-center">
           <div className="w-[90%] h-full">
