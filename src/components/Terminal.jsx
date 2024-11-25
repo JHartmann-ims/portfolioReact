@@ -50,7 +50,7 @@ function Terminal() {
               <span className="text-secondary">mahara</span> - Opens my mahara portfolio
             </p>
             <p className="ml-2">
-              <span className="text-secondary">source</span> - Opens the source code from this website
+              <span className="text-secondary">source</span> - Opens the source code of this website
             </p>
             <p className="ml-2">
               <span className="text-secondary">clear</span> - Clears the terminal
