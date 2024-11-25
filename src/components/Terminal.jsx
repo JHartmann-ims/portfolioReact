@@ -1,13 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Github,
-  Linkedin,
-  Youtube,
   Code,
   Terminal as TerminalIcon,
   Loader2,
 } from 'lucide-react';
+import { FaGithub as Github, FaLinkedinIn as Linkedin, FaYoutube as Youtube } from 'react-icons/fa';
 import CommandButtons from './CommandButtons';
 
 const CommandOutput = ({ children }) => (

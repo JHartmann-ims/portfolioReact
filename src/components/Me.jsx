@@ -1,8 +1,5 @@
 import React from "react";
 import portrait from "../assets/portraitJHA.jpeg";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
-import youtube from "../assets/youtube.png";
 import TechStack from "./TechStack";
 import Terminal from "./Terminal";
 
