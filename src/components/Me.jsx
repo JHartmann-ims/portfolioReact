@@ -4,12 +4,13 @@ import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import youtube from "../assets/youtube.png";
 import TechStack from "./TechStack";
+import Terminal from "./Terminal";
 
 const Me = () => {
   return (
     <div className="flex flex-grow">
       <div className="flex w-full">
-        <div className="lg:w-[850px] w-[90%] min-h-screen flex  m-0 mx-auto place-content-center">
+        <div className="lg:w-[850px] w-[90%] min-h-screen flex m-0 mx-auto place-content-center">
           <div className="w-[90%] h-full">
             <img
               src={portrait}
@@ -39,7 +40,7 @@ const Me = () => {
               <br />
               <p>
                 My journey into development started with a keen interest in
-                understanding how things work behind the scenes-wether it was
+                understanding how things work behind the scenes - wether it was
                 the functionality of websites, applications, or video games.
                 This curiosity led me to create my first video game using Unity
                 and C#. This experience was needed to get me to realize that
@@ -57,7 +58,7 @@ const Me = () => {
                       <span className="absolute flex items-center justify-center w-4 h-4 bg-primary rounded-full -left-2 ring-4 ring-gray-900"></span>
                       <span className="animate-ping absolute flex items-center justify-center w-4 h-4 bg-primary rounded-full -left-2 ring-4 ring-gray-900"></span>
                       <h3 className="text-xl font-semibold tracking-wide">
-                        RTP GmbH
+                        Junior Dev - RTP GmbH
                       </h3>
                       <time className="text-sm text-gray-400">
                         Aug 2024 - Present
@@ -73,7 +74,7 @@ const Me = () => {
                     <div className="mb-10 ml-6">
                       <span className="absolute flex items-center justify-center w-4 h-4 bg-primary rounded-full -left-2 ring-4 ring-gray-900"></span>
                       <h3 className="text-xl font-semibold tracking-wide">
-                        RTP GmbH
+                        Internship - RTP GmbH
                       </h3>
                       <time className="text-sm text-gray-400">
                         Aug 2023 - Aug 2024
@@ -124,41 +125,8 @@ const Me = () => {
               <p className="">the gym, coding, music, my ukulele</p>
             </div>
             <div className="w-[100%] m-0 mx-auto pt-10">
-              <h2 className="text-3xl font-bold pb-2">On the web</h2>
-              <div class="mockup-window bg-base-300">
-                <div class="grid justify-center px-4 py-16 bg-base-200 gap-2">
-                  <a
-                    href="https://github.com/JHartmann-ims"
-                    role="button"
-                    className="btn btn-wide gap-2 text-left"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={github} alt="" className="w-7 h-7" />
-                    JHartmann-ims
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/julian-hartmann-a17999239/"
-                    role="button"
-                    className="btn btn-wide gap-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={linkedin} alt="" className="w-6 h-6" />
-                    Julian Hartmann
-                  </a>
-                  <a
-                    href="https://www.youtube.com/channel/UCCQpiU3-tQ1gbrj7JdVyqKQ/videos"
-                    role="button"
-                    className="btn btn-wide gap-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={youtube} alt="" className="w-7 h-7" />
-                    quacksterr
-                  </a>
-                </div>
-              </div>
+              <h2 className="text-3xl font-bold pb-2">My Terminal</h2>
+              <Terminal />
             </div>
           </div>
         </div>
